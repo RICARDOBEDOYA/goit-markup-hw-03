@@ -15,6 +15,7 @@ a {
 
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .nav-container {
@@ -28,6 +29,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 .WebStudio {
   font-family: "Raleway";
@@ -49,6 +51,9 @@ ul {
   color: #212121;
   margin-right: 50px;
 }
+.active{
+ color: #2196F3;
+}
 .button:hover {
   color: var(--brand-color);
 }
@@ -64,13 +69,16 @@ ul {
   color: var(--brand-color);
 }
 .background {
-  display: flex;
-  width: 1600px;
   height: 600px;
   background: #2f303a;
+}
+.hero-container{
+
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100%;
 }
 
 .firsttitle {
@@ -87,8 +95,6 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-  padding-right: 280px;
-  padding-left: 280px;
 }
 
 .buttontitle {
@@ -103,7 +109,7 @@ ul {
 
 .benefits-container {
   display: flex;
-  margin-left: 30px;
+ 
   padding-top: 95px;
   justify-content: space-evenly;
 }
@@ -140,8 +146,8 @@ ul {
   padding-bottom: 94px;
   justify-content: space-evenly;
 }
-.background-team .container {
-  background: #f5f4fa;
+.background-team {
+background: #F5F4FA;
 }
 
 .team-section {
@@ -155,12 +161,17 @@ ul {
   width: 270px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+ 
+
 }
 .person-image {
   display: block;
+  padding-right: 30px;
+  padding-left: 30px;
 }
+
 
 .nametitle {
   font-family: "Roboto";
@@ -181,21 +192,30 @@ ul {
   font-weight: 400;
   line-height: 1.1;
   /* or 171% */
-
-  color: #757575;
   text-align: center;
+  color: #757575;
 }
 .backgrounddate {
-  background: #2f303a;
+ 
+  display: flex;
+  height: 252px;
+  background: #2F303A;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-direction: column-reverse;
 }
 
+ 
 .address {
   font-family: "Roboto";
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 2.7;
   /* or 171% */
-
   color: #ffffff;
+ 
+  
 }
 
 .email {
@@ -256,7 +276,9 @@ ul {
   box-sizing: border-box;
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;}
+
+  .picture-card:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -276,3 +298,12 @@ ul {
   line-height: 1.9;
   margin: 24px;
 }
+
+.style{
+  display: flex;
+  flex-direction: column;
+ 
+ 
+
+
+
