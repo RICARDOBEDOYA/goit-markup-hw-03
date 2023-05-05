@@ -144,34 +144,32 @@ ul {
 .images {
   display: flex;
   padding-bottom: 94px;
-  justify-content: space-evenly;
+  justify-content:space-evenly
 }
 .background-team {
 background: #F5F4FA;
 }
 
 .team-section {
-  padding-bottom: 94px;
   display: flex;
+  padding-bottom: 94px;
   justify-content: space-evenly;
 }
 
 .team-images {
   box-sizing: border-box;
   width: 270px;
+  margin: 24px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
- 
-
+  
 }
 .person-image {
   display: block;
-  padding-right: 30px;
-  padding-left: 30px;
-}
 
+}
 
 .nametitle {
   font-family: "Roboto";
@@ -195,27 +193,28 @@ background: #F5F4FA;
   text-align: center;
   color: #757575;
 }
-.backgrounddate {
- 
-  display: flex;
-  height: 252px;
+
+.footer {
   background: #2F303A;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: space-around;
-  align-items: baseline;
-  flex-direction: column-reverse;
 }
 
- 
+.backgrounddate {
+  height: 252px;
+padding: 95px 0;
+
+
+}
+
+address {
+  font-style: normal;
+} 
+
 .address {
   font-family: "Roboto";
   font-weight: 400;
   line-height: 2.7;
   /* or 171% */
   color: #ffffff;
- 
-  
 }
 
 .email {
@@ -262,7 +261,6 @@ background: #F5F4FA;
 
 .picture-section {
   display: flex;
-  padding: 20px;
   padding-bottom: 90px;
   flex-wrap: wrap;
   gap: 20px;
@@ -302,7 +300,7 @@ background: #F5F4FA;
 .style{
   display: flex;
   flex-direction: column;
- 
+}
  
 
 
